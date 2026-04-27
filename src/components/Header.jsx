@@ -1,8 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./style.css";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+
+  const navigate = useNavigate();
+
   return (
     <header className="header">
       <motion.div
@@ -30,7 +34,7 @@ const Header = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <button className="login-btn">Login</button>
+        <button className="login-btn" onClick={()=>navigate('/login')}>Login</button>
         <button className="shop-btn">Shop Now</button>
       </motion.div>
     </header>
