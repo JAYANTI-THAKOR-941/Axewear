@@ -17,7 +17,7 @@ import Dashboard from './admin/Dashboard'
 import Profile from './pages/Profile'
 import PageNotFound from './pages/PageNotFound'
 import Header from './components/Header'
-
+import Footer from './components/Footer'
 const App = () => {
   return (
     <>
