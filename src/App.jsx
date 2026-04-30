@@ -18,6 +18,7 @@ import Profile from './pages/Profile'
 import PageNotFound from './pages/PageNotFound'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ProtectedRoute from './components/ProtectedRoute'
 const App = () => {
   return (
     <>
@@ -39,9 +40,12 @@ const App = () => {
         <Route path="/checkout" element={<Checkout/>} />
 
         {/* admin routes */}
-        <Route path="/product-management" element={<ProductManagement/>} />
-        <Route path="/user-management" element={<UserManagement/>} />
-        <Route path="/dashboard" element={<Dashboard/>} />
+       <Route element={<ProtectedRoute/>}>
+          <Route path="/product-management" element={<ProductManagement/>} />
+          <Route path="/user-management" element={<UserManagement/>} />
+          <Route path="/dashboard" element={<Dashboard/>} />
+       </Route>
+      
 
 
 

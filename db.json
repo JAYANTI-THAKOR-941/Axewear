@@ -1,175 +1,146 @@
 {
-    "users":[],
+  "users": [],
   "products": [
-  {
-    "id": 1,
-    "name": "Men Slim Fit Casual Shirt",
-    "brand": "AxeWear",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "price": 1299,
-    "discount": 10,
-    "finalPrice": 1169,
-    "currency": "INR",
-    "rating": 4.3,
-    "reviews": 120,
-    "stock": 25,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Blue", "White", "Black"],
-    "material": "Cotton",
-    "image": "https://tigc.in/cdn/shop/files/0725-SHOXCS-02-04_6.jpg?v=1775540234&width=360",
-    "images": [
-      "https://images.unsplash.com/photo-1589310243389-96a5483213a8",
-      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c"
-    ],
-    "description": "Comfortable slim fit cotton shirt perfect for casual outings.",
-    "tags": ["casual", "summer", "trending"],
-    "isFeatured": true
-  },
-  {
-    "id": 2,
-    "name": "Men Denim Jacket",
-    "brand": "AxeWear",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "price": 2499,
-    "discount": 15,
-    "finalPrice": 2124,
-    "currency": "INR",
-    "rating": 4.5,
-    "reviews": 80,
-    "stock": 15,
-    "sizes": ["M", "L", "XL"],
-    "colors": ["Blue", "Dark Blue"],
-    "material": "Denim",
-    "image": "https://www.urbanofashion.com/cdn/shop/files/jakt-denimvint-dblue_ea174286-d9fa-4e9f-9835-8f1a49b5ac28.jpg?v=1758282519&width=360",
-    "images": [
-      "https://images.unsplash.com/photo-1520975916090-3105956dac38"
-    ],
-    "description": "Classic denim jacket with a modern fit.",
-    "tags": ["winter", "denim"],
-    "isFeatured": true
-  },
-  {
-    "id": 3,
-    "name": "Women Floral Kurti",
-    "brand": "AxeWear",
-    "category": "Women",
-    "subCategory": "Kurti",
-    "price": 999,
-    "discount": 20,
-    "finalPrice": 799,
-    "currency": "INR",
-    "rating": 4.4,
-    "reviews": 150,
-    "stock": 30,
-    "sizes": ["S", "M", "L"],
-    "colors": ["Pink", "Yellow"],
-    "material": "Rayon",
-    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990",
-    "images": [
-      "https://images.unsplash.com/photo-1618354691438-25bc04584c23"
-    ],
-    "description": "Elegant floral kurti for daily wear.",
-    "tags": ["ethnic", "casual"],
-    "isFeatured": false
-  },
-  {
-    "id": 5,
-    "name": "Kids Boys T-Shirt",
-    "brand": "AxeWear",
-    "category": "Kids",
-    "subCategory": "T-Shirts",
-    "price": 599,
-    "discount": 5,
-    "finalPrice": 569,
-    "currency": "INR",
-    "rating": 4.2,
-    "reviews": 60,
-    "stock": 40,
-    "sizes": ["2-3Y", "4-5Y", "6-7Y"],
-    "colors": ["Green", "Blue"],
-    "material": "Cotton",
-    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT8estAvYgEARXsC4yJYVc3XeSLolwZHfWCBh2aN3HPxlwGdwwlVRXBBdX-C6n_LNd8DmCYS5Gj8Hhqfe-5ruXdFU-VdEd9ncQhce_CEqNjc_wu8kZmsMUVC3g",
-    "images": [
-      "https://images.unsplash.com/photo-1596464716127-f2a82984de30"
-    ],
-    "description": "Soft and breathable t-shirt for boys.",
-    "tags": ["kids", "casual"],
-    "isFeatured": false
-  },
-  {
-    "id": 6,
-    "name": "Kids Girls Frock",
-    "brand": "AxeWear",
-    "category": "Kids",
-    "subCategory": "Frocks",
-    "price": 899,
-    "discount": 10,
-    "finalPrice": 809,
-    "currency": "INR",
-    "rating": 4.5,
-    "reviews": 70,
-    "stock": 22,
-    "sizes": ["2-3Y", "4-5Y"],
-    "colors": ["Pink", "Purple"],
-    "material": "Net",
-    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTKtcH9qyPW4qmWLcEQTYdPvbfVK_6PaT8UASgXpUidUpbe1nOPMHL-EEoVfbhUHQQqnpdhfaH6LndmvgJ-WnPm-QwUJmtoHdiOzsdJ37jjNBG2X7lp_jEA1Q",
-    "images": [
-      "https://images.unsplash.com/photo-1611080626919-7cf5a9c9a4f7"
-    ],
-    "description": "Cute frock for girls suitable for parties.",
-    "tags": ["kids", "party"],
-    "isFeatured": true
-  },
-  {
-    "id": 7,
-    "name": "Women Straight Kurti",
-    "brand": "AxeWear",
-    "category": "Kurti",
-    "subCategory": "Straight Kurti",
-    "price": 1199,
-    "discount": 10,
-    "finalPrice": 1079,
-    "currency": "INR",
-    "rating": 4.3,
-    "reviews": 110,
-    "stock": 18,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Blue"],
-    "material": "Cotton",
-    "image": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0",
-    "images": [
-      "https://images.unsplash.com/photo-1593032465281-7a9a3b7cbd52"
-    ],
-    "description": "Perfect for office and casual wear.",
-    "tags": ["ethnic", "office"],
-    "isFeatured": false
-  },
-  {
-    "id": 8,
-    "name": "Designer Anarkali Kurti",
-    "brand": "AxeWear",
-    "category": "Kurti",
-    "subCategory": "Anarkali",
-    "price": 1799,
-    "discount": 20,
-    "finalPrice": 1439,
-    "currency": "INR",
-    "rating": 4.7,
-    "reviews": 140,
-    "stock": 10,
-    "sizes": ["M", "L", "XL"],
-    "colors": ["Maroon", "Green"],
-    "material": "Silk Blend",
-    "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22",
-    "images": [
-      "https://images.unsplash.com/photo-1617137968663-1c9c35e5ad9d"
-    ],
-    "description": "Elegant Anarkali kurti for festive occasions.",
-    "tags": ["festive", "wedding"],
-    "isFeatured": true
-  }
-],
-    "reviews":[]
+    {
+      "id": "1",
+      "name": "Men Slim Fit Casual Shirt",
+      "brand": "AxeWear",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "price": 1299,
+      "discount": 10,
+      "finalPrice": 1169,
+      "currency": "INR",
+      "rating": 4.3,
+      "reviews": 120,
+      "stock": 25,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Blue",
+        "White",
+        "Black"
+      ],
+      "material": "Cotton",
+      "image": "https://tigc.in/cdn/shop/files/0725-SHOXCS-02-04_6.jpg?v=1775540234&width=360",
+      "images": [
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c"
+      ],
+      "description": "Comfortable slim fit cotton shirt perfect for casual outings.",
+      "tags": [
+        "casual",
+        "summer",
+        "trending"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "2",
+      "name": "Men Denim Jacket",
+      "brand": "AxeWear",
+      "category": "Men",
+      "subCategory": "Jackets",
+      "price": 2499,
+      "discount": 15,
+      "finalPrice": 2124,
+      "currency": "INR",
+      "rating": 4.5,
+      "reviews": 80,
+      "stock": 15,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Blue",
+        "Dark Blue"
+      ],
+      "material": "Denim",
+      "image": "https://www.urbanofashion.com/cdn/shop/files/jakt-denimvint-dblue_ea174286-d9fa-4e9f-9835-8f1a49b5ac28.jpg?v=1758282519&width=360",
+      "images": [
+        "https://images.unsplash.com/photo-1520975916090-3105956dac38"
+      ],
+      "description": "Classic denim jacket with a modern fit.",
+      "tags": [
+        "winter",
+        "denim"
+      ],
+      "isFeatured": true
+    },
+    {
+      "id": "5",
+      "name": "Kids Boys T-Shirt",
+      "brand": "AxeWear",
+      "category": "Kids",
+      "subCategory": "T-Shirts",
+      "price": 599,
+      "discount": 5,
+      "finalPrice": 569,
+      "currency": "INR",
+      "rating": 4.2,
+      "reviews": 60,
+      "stock": 40,
+      "sizes": [
+        "2-3Y",
+        "4-5Y",
+        "6-7Y"
+      ],
+      "colors": [
+        "Green",
+        "Blue"
+      ],
+      "material": "Cotton",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT8estAvYgEARXsC4yJYVc3XeSLolwZHfWCBh2aN3HPxlwGdwwlVRXBBdX-C6n_LNd8DmCYS5Gj8Hhqfe-5ruXdFU-VdEd9ncQhce_CEqNjc_wu8kZmsMUVC3g",
+      "images": [
+        "https://images.unsplash.com/photo-1596464716127-f2a82984de30"
+      ],
+      "description": "Soft and breathable t-shirt for boys.",
+      "tags": [
+        "kids",
+        "casual"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "6",
+      "name": "Kids Girls Frock",
+      "brand": "AxeWear",
+      "category": "Kids",
+      "subCategory": "Frocks",
+      "price": 899,
+      "discount": 10,
+      "finalPrice": 809,
+      "currency": "INR",
+      "rating": 4.5,
+      "reviews": 70,
+      "stock": 22,
+      "sizes": [
+        "2-3Y",
+        "4-5Y"
+      ],
+      "colors": [
+        "Pink",
+        "Purple"
+      ],
+      "material": "Net",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTKtcH9qyPW4qmWLcEQTYdPvbfVK_6PaT8UASgXpUidUpbe1nOPMHL-EEoVfbhUHQQqnpdhfaH6LndmvgJ-WnPm-QwUJmtoHdiOzsdJ37jjNBG2X7lp_jEA1Q",
+      "images": [
+        "https://images.unsplash.com/photo-1611080626919-7cf5a9c9a4f7"
+      ],
+      "description": "Cute frock for girls suitable for parties.",
+      "tags": [
+        "kids",
+        "party"
+      ],
+      "isFeatured": true
+    }
+  ],
+  "reviews": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }
