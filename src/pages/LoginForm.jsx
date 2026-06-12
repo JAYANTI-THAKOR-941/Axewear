@@ -9,7 +9,7 @@ const LoginForm = () => {
 
     const authLogin = async()=>{
         try{
-            await signInWithPopup(auth,provider);
+            const res =  await signInWithPopup(auth,provider);
             alert("Login successfully");
             navigate('/')
         }
